@@ -1,0 +1,28 @@
+/*Медиа-запрос для экранов с шириной 760px */
+@media (max-width: 760px) {
+    .header-location {
+        
+    }
+
+
+
+
+    .none {
+        display: none;
+    } 
+}
+
+
+
+
+
+
+
+/*Медиа-запрос для экранов с шириной 320px */
+@media (max-width: 320px) {
+
+
+    .none {
+        display: none;
+    } 
+}
