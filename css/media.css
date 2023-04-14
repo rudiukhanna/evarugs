@@ -1,28 +1,122 @@
-/*Медиа-запрос для экранов с шириной 760px */
-@media (max-width: 760px) {
-    .header-location {
+
+@media  screen and (max-width: 768px) {
+      
+    .container {
+        margin: auto;
+    }
+
+    .header-telephone {
+        display: none;
+    }
+
+    .hero-nav-list {
+        display: none;
+    }
+
+    .hero-content-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 0;
         
     }
 
+    .hero-img-carpet {
+        width: 368px;
+        height: 473px;
+    }
+ 
+    .btn {
+        width: 141px;
+        padding: 15px 22px;
+        font-size: 15px;
+        line-height: 1.13;
+    }
 
+    .eva {
+        margin-top: 50px;
+    }
 
+    .eva h2 {
+        margin-bottom: 48px;
+        font-size: 40px;
+        line-height: 1.17;
+    }
 
-    .none {
-        display: none;
-    } 
+    .eva-card-wrapper {
+        flex-direction: column;
+    }
+
+    .card:nth-child(-n+2) {
+        margin-bottom: 61px;
+    }
+
+    .card {
+        max-width: 594px;
+        margin-bottom: 124px;
+    }
+
+    .card-img {
+        width: 626px;
+        height: 189px;
+    }
+
+    .feedback {
+        overflow: visible;
+        padding: 37px 115px 72px;
+    }
+
+    .feedback-cards-wrapper {
+        flex-direction: column;
+    }
+
+    .feedback-card {
+        display: flex;
+        justify-content: center;
+    }
+
+    .feedback-card:nth-child(-n+2) {
+        margin-bottom: 49px;
+    }
+
+    .feedback-first, 
+    .feedback-third {
+        left: 0;
+    }
+
+    .feedback-first:hover,
+    .feedback-third:hover {
+        transform: scale(1.5) translate(0);
+        transform-origin: center;
+    }
+
+    .feedback-img img {
+        margin-left: 380px;
+    }
+
+    .feedback-second:hover {
+        z-index: 1;
+    }
+
+    .footer {
+        padding: 95px 0 41px;
+    }
+
+    .footer-container {
+        padding: 0 45px;
+    }
+
+    .footer-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
+ 
 
 
 
 
 
 
-/*Медиа-запрос для экранов с шириной 320px */
-@media (max-width: 320px) {
-
-
-    .none {
-        display: none;
-    } 
-}

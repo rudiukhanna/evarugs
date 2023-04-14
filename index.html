@@ -14,7 +14,7 @@
         <div class="container">
             <div class="header-contacts">
                 
-                <div class="header-telephone none">
+                <div class="header-telephone">
                     <a href="#"> <img src="./img/svg/phone.svg" alt="phone"
                          width="20"></a>
                 <a href="tel:+380964550000">
@@ -54,7 +54,7 @@
                      </a>
                 </div>
 
-                <div class="hero-nav-list none">
+                <div class="hero-nav-list">
                     <a href="#feedbacks">відгуки</a>
                     <a href="#eva">що це?</a>
                     <a href="#contacts">контакти</a>
@@ -66,12 +66,12 @@
 
             <div class="hero-content">
                 <h1>Інноваційні килимки для автомобіля</h1>
-                <p>у вашому місці</p>
+                <p id="dynamic-text">у вашому місці</p>
                 <a href="./form.html" class="btn">Замовити</a>
             </div>
             
             <div class="hero-img">
-                <img src="./img/hero/carpets.png" alt="carpets" width="533">
+                <img class="hero-img-carpet" src="./img/hero/carpets.png" alt="carpets" width="533">
             </div>
 
          </div>
@@ -88,7 +88,7 @@
 
                     <!-- Card -->
                     <div class="card"> 
-                        <img src="./img/eva/material.jpg" alt="pimples">
+                         <div class="card-img card-bcg1"></div>
                         <h3>Матеріал</h3>
                         <p>Килимки EVA всесезонні та відрізняються унікальною поверхнею матеріалу з осередками ромбовидної форми. Через що вода не проливається при вилученні килима і не хлюпається при їзді. Килимки воду не пропускають.
                         </p>
@@ -97,7 +97,7 @@
 
                     <!-- Card -->
                     <div class="card"> 
-                        <img src="./img/eva/differencies.jpg" alt="iron pimples">
+                        <div class="card-img card-bcg2"></div>
                         <h3>Відмінності</h3>
                         <p>Гумові килимки загинаються і лізуть на педалі. EVA килимки такого не допустять! Спеціальні липучки тримають його в одному положенні. За бажанням, для водія встановлюється підп'ятник з рельєфного алюмінію.
                         </p>
@@ -106,7 +106,7 @@
 
                     <!-- Card -->
                     <div class="card">
-                        <img src="./img/eva/color.jpg" alt="color carpets">
+                        <div class="card-img card-bcg3"></div>
                         <h3>Колір</h3> 
                         <p>Автомобільні килимки EVA можна замовити і в індивідуальних розмірах і різних кольорах, які комбінується на вибір покупця з такими ж кольорами окантовочной поліпропіленової ремінної стрічки.
                         </p>
@@ -203,5 +203,7 @@
     </div>
    </footer>
 
+
+   <script src="./js/index.js"></script>
 </body>
 </html>
